@@ -17,13 +17,9 @@ services:
       - MARIADB_ROOT_PASSWORD=pass
     links:
       - elk
-#    entrypoint: ""
-#    command: bash -c "chown -R mysql:mysql /var/log/mysql && exec /entrypoint.sh mysqld"
     volumes:
-      #- ./log/mysql:/var/log/mysql/
       - ./logs:/var/log/mysql
       - ./mysqld.cnf:/etc/mysql/conf.d/mysqld.cnf
-#      - ./logs:/etc/mysql/conf.d
     command: --slow_query_log=1
 
   filebeat:
@@ -42,16 +38,9 @@ services:
     environment:
       - ELASTICSEARCH_HOST=elk
       - KIBANA_HOST=elk
-#      - ELASTICSEARCH_USERNAME=${ELASTICSEARCH_USERNAME:-elastic}
-#      - ELASTICSEARCH_PASSWORD=${ELASTICSEARCH_PASSWORD:-changeme}
-    # disable strict permission checks
     command: [ "--strict.perms=false" ]
     deploy:
       mode: global
-
-#    networks: ['stack']
-#    command: filebeat -e -E output.elasticsearch.username=elastic -E output.elasticsearch.password=${ES_PASSWORD} -strict.perms=false
-
 
 configs:
   fb_config:
