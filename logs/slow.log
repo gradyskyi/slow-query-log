@@ -293,3 +293,10 @@ SET timestamp=1631283258;
 mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
 Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
 Time		    Id Command	Argument
+# Time: 210910 14:25:34
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 2.007960  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631283934;
+select sleep(2);
