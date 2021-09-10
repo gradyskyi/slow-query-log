@@ -1,0 +1,24 @@
+output:
+  logstash:
+    enabled: true
+    hosts:
+      - elk:5044
+    timeout: 15
+#    ssl:
+#      certificate_authorities:
+#        - /etc/pki/tls/certs/logstash-beats.crt
+
+#  elasticsearch:
+#    hosts: ["elk:9200"]
+#    username: "elastic"
+#    password: ""
+
+#setup.kibana:
+#  host: "elk:5601"
+
+filebeat:
+  inputs:
+    -
+      paths:
+        - /var/log/slow.log
+      document_type: slowlogs

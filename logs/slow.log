@@ -1,0 +1,218 @@
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 3306  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:21:30
+# User@Host: root[root] @ localhost []
+# Thread_id: 5  Schema:   QC_hit: No
+# Query_time: 5.000447  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631276490;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:22:43
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.003373  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631276563;
+select sleep(5);
+# Time: 210910 12:23:23
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema:   QC_hit: No
+# Query_time: 5.000299  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631276603;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:27:27
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.008230  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631276847;
+select sleep(5);
+# Time: 210910 12:27:45
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000289  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631276865;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /var/lib/mysql/mysql.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:30:27
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.008056  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277027;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:33:47
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.003260  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277227;
+select sleep(5);
+# Time: 210910 12:33:55
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000275  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277235;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:35:20
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.003252  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277320;
+select sleep(5);
+# Time: 210910 12:35:30
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000237  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277330;
+select sleep(5);
+# Time: 210910 12:35:42
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000246  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277342;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 12:41:22
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.008117  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631277682;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 13:19:59
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.294334  Lock_time: 0.003932  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 106
+use mysql;
+SET timestamp=1631279999;
+ALTER TABLE time_zone_transition ORDER BY Time_zone_id, Transition_time;
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.192902  Lock_time: 0.007019  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 116
+SET timestamp=1631279999;
+/*!100400 ALTER TABLE time_zone_transition TRANSACTIONAL=1 */;
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 13:32:58
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.283688  Lock_time: 0.003615  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 106
+use mysql;
+SET timestamp=1631280778;
+ALTER TABLE time_zone_transition ORDER BY Time_zone_id, Transition_time;
+# Time: 210910 13:32:59
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.201525  Lock_time: 0.007440  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 116
+SET timestamp=1631280779;
+/*!100400 ALTER TABLE time_zone_transition TRANSACTIONAL=1 */;
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 13:34:09
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.007896  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631280849;
+select sleep(5);
+# Time: 210910 13:34:21
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000259  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631280861;
+select sleep(5);
+# Time: 210910 13:34:32
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000242  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631280872;
+select sleep(5);
+# Time: 210910 13:34:38
+# User@Host: root[root] @ localhost []
+# Thread_id: 3  Schema:   QC_hit: No
+# Query_time: 5.000303  Lock_time: 0.000000  Rows_sent: 1  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 65
+SET timestamp=1631280878;
+select sleep(5);
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument
+# Time: 210910 13:48:23
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.273056  Lock_time: 0.006764  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 106
+use mysql;
+SET timestamp=1631281703;
+ALTER TABLE time_zone_transition ORDER BY Time_zone_id, Transition_time;
+# User@Host: root[root] @ localhost []
+# Thread_id: 4  Schema: mysql  QC_hit: No
+# Query_time: 0.188376  Lock_time: 0.007172  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 124286  Bytes_sent: 116
+SET timestamp=1631281703;
+/*!100400 ALTER TABLE time_zone_transition TRANSACTIONAL=1 */;
+mysqld, Version: 10.6.4-MariaDB-1:10.6.4+maria~focal-log (mariadb.org binary distribution). started with:
+Tcp port: 0  Unix socket: /run/mysqld/mysqld.sock
+Time		    Id Command	Argument

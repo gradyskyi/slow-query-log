@@ -1,0 +1,58 @@
+version: '3.2'
+
+services:
+  elk:
+    image: sebp/elk
+    ports:
+      - "5601:5601"
+      - "9200:9200"
+      - "5044:5044"
+    environment:
+      - ELASTIC_BOOTSTRAP_PASSWORD="changeme"
+
+  db:
+    build: ./
+    restart: always
+    environment:
+      - MARIADB_ROOT_PASSWORD=pass
+    links:
+      - elk
+#    entrypoint: ""
+#    command: bash -c "chown -R mysql:mysql /var/log/mysql && exec /entrypoint.sh mysqld"
+    volumes:
+      #- ./log/mysql:/var/log/mysql/
+      - ./logs:/var/log/mysql
+      - ./mysqld.cnf:/etc/mysql/conf.d/mysqld.cnf
+#      - ./logs:/etc/mysql/conf.d
+    command: --slow_query_log=1
+
+  filebeat:
+    container_name: filebeat
+    hostname: filebeat
+    user: root
+    image: docker.elastic.co/beats/filebeat:7.13.2
+    configs:
+      - source: fb_config
+        target: /usr/share/filebeat/filebeat.yml
+    volumes:
+      - ./filebeat.yml:/usr/share/filebeat/filebeat.yml:ro
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /var/lib/docker/containers/:/var/lib/docker/containers/:ro
+      - ./logs/:/var/log/:ro
+    environment:
+      - ELASTICSEARCH_HOST=elk
+      - KIBANA_HOST=elk
+#      - ELASTICSEARCH_USERNAME=${ELASTICSEARCH_USERNAME:-elastic}
+#      - ELASTICSEARCH_PASSWORD=${ELASTICSEARCH_PASSWORD:-changeme}
+    # disable strict permission checks
+    command: [ "--strict.perms=false" ]
+    deploy:
+      mode: global
+
+#    networks: ['stack']
+#    command: filebeat -e -E output.elasticsearch.username=elastic -E output.elasticsearch.password=${ES_PASSWORD} -strict.perms=false
+
+
+configs:
+  fb_config:
+    file: ./filebeat.yml
